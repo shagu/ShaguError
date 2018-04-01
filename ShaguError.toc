@@ -1,6 +1,6 @@
 ## Interface: 11200
 ## Title: |cff33ffccShagu|cffffffffError
-## Author: Eric (Shagu) Mauser, 2016
+## Author: Shagu, 2016
 ## Notes: Hides Error Popups
 ## Version: 1.0
 ShaguError.lua
