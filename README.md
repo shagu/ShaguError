@@ -1,5 +1,5 @@
 # ShaguError
-A Vanilla Addon to hide error message popups. All error or info popups will be prefixed with their type, and then go into the chat instead of throwing popups at you.
+A World of Warcraft: Vanilla and TBC Addon to hide error message popups. All error or info popups will be prefixed with their type, and then go into the chat instead of throwing popups at you.
 
 ![preview](https://raw.githubusercontent.com/shagu/ShaguAddons/master/_img/ShaguError/chat.png)
 
