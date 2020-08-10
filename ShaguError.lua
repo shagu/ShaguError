@@ -1,8 +1,9 @@
-message = function (msg)
-  DEFAULT_CHAT_FRAME:AddMessage("|cffcccc33INFO: |cffffff55"..msg)
+message = function(msg)
+  DEFAULT_CHAT_FRAME:AddMessage("|cffcccc33INFO: |cffffff55" .. ( msg or "nil" ))
 end
+print = message
 
-ScriptErrors:SetScript("OnShow", function(msg)
-  DEFAULT_CHAT_FRAME:AddMessage("|cffcc3333ERROR: |cffff5555"..ScriptErrors_Message:GetText())
-  ScriptErrors:Hide()
-end)
+error = function(msg)
+  DEFAULT_CHAT_FRAME:AddMessage("|cffcc3333ERROR: |cffff5555".. (msg or "nil" ))
+end
+seterrorhandler(error)
